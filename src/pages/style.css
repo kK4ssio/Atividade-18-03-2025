@@ -1,0 +1,33 @@
+.Card {
+  text-align: center;
+}
+
+.foto {
+  text-align: center;
+  height: 112px;
+  width: 112px;
+  border-radius: 50%;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 30px;
+}
+
+.Buttons button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  height: 40px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.Social {
+  justify-content: center;
+  display: flex;
+  gap: 25px;
+}
